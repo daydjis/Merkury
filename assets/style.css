@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+
+    font-size: 15px;
+    line-height: 1;
+    color: #ffffff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3, h5, h6 {
+    margin: 0;
+}
+
+/* container*/
+
+
+.container {
+    width: 100%;
+    max-width: 1470px;
+    margin: 0 auto;
+}
+
+/* Into*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: url("../assets/img/intro.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+.introInner{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    top: 150px;
+    text-align: center;
+}
+
+.introTittle{
+
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 1;
+    color: #ffffff;
+
+    margin-bottom: 30px;
+}
+.introSub{
+    font-size: 38px;
+    font-weight: normal;
+    color: #ffffff;
+
+    margin-bottom: 60px;
+}
+
+.getStartBtn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+
+
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #5584ff;
+    border-radius: 25px;
+    padding: 15px 40px;
+
+    transition: 0.2s;
+}
+
+.getStartBtn:hover {
+    background: rgba(255,255,255,.2);
+}
+
+.getStartBtn:active {
+    background: white;
+}
+/* Header*/
+.header {
+    width: 100%;
+    padding-top: 30px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+.headerInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* nav */
+.nav {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navLink{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 16px;
+    padding: 8px 0px;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+.navLink:hover{
+    color: silver;
+}
+
+.BtnLogin{
+    display: inline-block;
+    vertical-align: top;
+    margin:  0 14px;
+
+
+    color: #5584ff;
+    text-decoration: none;
+    user-select: none;
+
+    border-radius: 25px;
+    border: 3px solid #5584ff;
+    padding: 8px 25px;
+    transition: 0.2s;
+}
+
+.BtnLogin:hover{
+    background: rgba(255,255,255,.2);
+}
+
+.BtnLogin:active{
+    background: white;
+}
+
+.img {
+    display: inline-block;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    top: 100px;
+
+    box-shadow: -3px 1px 8px 1px #5584ff;
+
+    background: url("../assets/img/rekla.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+/* section */
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: #ffffff;
+}
+
+.containerCard {
+    width: 100%;
+    max-width: 1470px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    width: 430px;
+    /*background: aqua;*/
+    /*border: 2px solid red;*/
+    margin: 0 auto;
+    display: flex;
+}
+
+.discCard {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+ .spanCard {
+     text-align: center;
+     font-size: 18px;
+     color: #8492af;
+     margin-bottom: 50px;
+     line-height: 30px;
+ }
+
+
+ .icon {
+     height: 100px;
+     width: 100px;
+
+     margin-bottom: 20px;
+
+ }
+
+.cardBtn {
+    font-size: 20px;
+    color: black;
+    padding: 6px 40px;
+    border: 2px solid gray;
+    text-decoration: none;
+
+    border-radius: 25px;
+
+    transition: 1s;
+}
+
+.cardBtn:hover {
+    background: #5584ff;
+}
+
+.cardBtn:active {
+
+}
